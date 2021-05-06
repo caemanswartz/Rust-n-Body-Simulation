@@ -1,0 +1,16 @@
+[package]
+name = "nbodysim"
+version = "0.1.0"
+authors = ["caemanswartz"]
+edition = "2018"
+[dependencies]
+ansi_term = "*"
+float_eq = "*"
+itertools = "*"
+kiss3d = "0.30.*"
+rayon = "*"
+reqwest = {version = "*", features = ["blocking"]}
+regex = "*"
+serde = {version = "*", features = ["rc"]}
+serde_json = "*"
+time = "*"
